@@ -1,0 +1,6 @@
+   
+public componentWillMount() {
+	this.props.fetchUsers();
+    this.props.fetchMaterials();
+    this.props.fetchMails(); 
+  }
