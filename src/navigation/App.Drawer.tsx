@@ -23,11 +23,11 @@ interface IAppDrawer {
 
 class AppDrawer extends React.Component<IAppDrawer, {}> {
     public routes = [
-        { path: '/', title: 'Dashboard', icon: () => <DashboardIcon /> },
-        { path: '/mail/inbox', title: 'Inbox', icon: () => <InboxIcon /> },
-        { path: '/mail/sent', title: 'Sent', icon: () => <SendIcon /> },
-        { path: '/mail/drafts', title: 'Mailaka', icon: () => <DraftsIcon /> },
-        { path: '/account', title: 'Profile', icon: () => <AccountCircleIcon /> }
+        { path: '/', title: 'Acceil', icon: () => <DashboardIcon /> },
+        { path: '/mail/monba', title: 'Momba Anao', icon: () => <InboxIcon /> },
+        { path: '/mail/andefa', title: 'Andefa mailaka', icon: () => <SendIcon /> },
+        { path: '/mail/hijery', title: 'Mailaka', icon: () => <DraftsIcon /> },
+        { path: '/ianao', title: 'Ianao', icon: () => <AccountCircleIcon /> }
     ]
 
     public render(): JSX.Element {

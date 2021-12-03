@@ -26,7 +26,7 @@ export class AccountPage extends React.Component<IAccountProps, {}> {
 
     public render(): JSX.Element {
         return (<Switch>
-            <Route path="/account" exact={true} component={isAuthenticated(ProfilePage as any)} />
+            <Route path="/ianao" exact={true} component={isAuthenticated(ProfilePage as any)} />
             <Route path={'/account/login'} render={this.renderLogin} />
         </Switch>);
     }
